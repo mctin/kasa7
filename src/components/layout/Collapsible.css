@@ -1,0 +1,61 @@
+button {
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-image: initial;
+  background-color: #ff6060;
+  width: 100%;
+  height: 47px;
+  border: 10px, solid;
+  border-color: white;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142.6%;
+}
+.content {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142.6%;
+  /* or 34px */
+  background-color: #f7f7f7;
+  color: #ff6060;
+}
+
+/* Vector */
+/* 
+position: absolute;
+left: 96.76%;
+right: 1.86%;
+top: 8.74%;
+bottom: 78.3%;
+
+background: #FFFFFF;
+transform: rotate(90deg); */
+
+.textbox {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 74.46%;
+  color: red;
+  background: #ff6060;
+  border-radius: 5px;
+}

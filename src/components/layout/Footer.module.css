@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  position: relative;
+  height: 209px;
+  justify-content: space-around;
+  text-align: center;
+
+  background: #000000;
+}
+
+logo2 {
+  position: absolute;
+  left: 45.76%;
+  right: 45.76%;
+  top: 31.58%;
+  bottom: 49.55%;
+  z-index: 1;
+}
