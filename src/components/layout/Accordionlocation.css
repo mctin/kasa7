@@ -1,4 +1,5 @@
-* STYLE ACCORDION SECTION */ .accordionlocation__section {
+
+.accordionlocation__section {
   display: flex;
   flex-direction: column;
 }

@@ -18,6 +18,9 @@
   position: relative;
   margin-left: 135px;
 }
+.location_tag {
+  display: flex;
+}
 
 .title_img img {
   /* position: relative;  */

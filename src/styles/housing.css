@@ -36,7 +36,9 @@
   margin-right: 10%;
   margin-bottom: 10px;
 }
-
+.location_tags {
+  display: flex;
+}
 .main-container-tag {
   display: flex;
   flex-direction: row;

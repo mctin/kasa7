@@ -25,7 +25,7 @@ const InfoHome = () => {
             <p className="subtitle_locationpage">{location}</p>
           </div>
 
-          <div className="singleproduct__tags">
+          <div className="location_tags">
             {home.tags.map((tag, index) => (
               <Tag key={index} getTag={tag} />
             ))}

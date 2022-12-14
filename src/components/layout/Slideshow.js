@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Slideshow.css";
-import { leftarrow } from "../images/chevron-left.png";
-import { rightarrow } from "../images/chevron-right.png";
+import chevronleft from "../images/chevronleft.png";
+import chevronright from "../images/chevronright.png";
 // -------------------------------------------
 
 export default function Slideshow(props) {
@@ -46,14 +46,9 @@ export default function Slideshow(props) {
         ))}
       </div>
       <div className={"slideshow-controls"}>
+        <img src={chevronleft} className={"chevron"} onClick={onPrev} />
         <img
-          src="{leftarrow}"
-          alt="arrow"
-          className={"chevron"}
-          onClick={onPrev}
-        />
-        <img
-          src="../images/chevron-right.png"
+          src={chevronright}
           alt="arrow"
           className={"chevron"}
           onClick={onNext}
