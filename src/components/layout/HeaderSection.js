@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "./images/LOGO.jpg";
+import logo from "../images/LOGO.jpg";
 import classes from "./Header.module.css";
 
 function HeaderSection() {
@@ -14,7 +14,7 @@ function HeaderSection() {
             <Link to="/*">Errorpage</Link>
           </li>
           <li>
-            <Link to="/Housing/:Id">Housing</Link>
+            <Link to="/Housing/:homeId">Housing</Link>
           </li>
           <li>
             <Link to="/InfoPage">Info</Link>

@@ -1,44 +1,59 @@
-import Collapsible from "../components/layout/Collapsible";
-import Banner from "../components/layout/Banner";
+import React from "react";
 
-function InfoPage() {
+// ACCORDION
+import Accordion from "../components/layout/Accordion";
+import imageBanner from "../components/images/banner2.png";
+
+// STYLE
+import "../styles/infoPage.css";
+
+function About() {
   return (
-    <div>
-      <Banner></Banner>
-      <Collapsible label="Fiabilite">
-        <p>
-          Les annonces postées sur Kasa garantissent une fiabilité totale. Les
-          photos sont conformes aux logements, et toutes les informations sont
-          régulièrement vérifiées par nos équipes.
-        </p>
-      </Collapsible>
+    <div className="body-about">
+      <div className="background_title">
+        <div className="title_img">
+          <img src={imageBanner} alt="bimg" />
+        </div>
+        <div className="bgd"></div>
+      </div>
 
-      <Collapsible label="Respect">
-        <p>
-          La bienveillance fait partie des valeurs fondatrices de Kasa. Tout
-          comportement discriminatoire ou de perturbation du voisinage
-          entraînera une exclusion de notre plateforme.
-        </p>
-      </Collapsible>
-      <Collapsible label="Service">
-        <p>
-          Nos équipes se tiennent à votre disposition pour vous fournir une
-          expérience parfaite. N'hésitez pas à nous contacter si vous avez la
-          moindre question.
-        </p>
-      </Collapsible>
-      <Collapsible label="Securite">
-        <p>
-          La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que
-          pour les voyageurs, chaque logement correspond aux critères de
-          sécurité établis par nos services. En laissant une note aussi bien à
-          l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les
-          standards sont bien respectés. Nous organisons également des ateliers
-          sur la sécurité domestique pour nos hôtes.
-        </p>
-      </Collapsible>
+      <div className="container">
+        <div className="accordion-container">
+          <Accordion
+            title="Fiabilité"
+            content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements,
+                et toutes les informations sont régulièrement vérifiées par nos équipes"
+          />
+        </div>
+
+        <div className="accordion-container">
+          <Accordion
+            title="Respect"
+            content="La bienveillance fait partie des valeurs fondatrices de Kasa. 
+                Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
+          />
+        </div>
+
+        <div className="accordion-container">
+          <Accordion
+            title="Service"
+            content="Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. 
+                N'hésitez pas à nous contacter si vous avez la moindre question."
+          />
+        </div>
+
+        <div className="accordion-container">
+          <Accordion
+            title="Sécurité"
+            content="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond 
+                aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet 
+                à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité 
+                domestique pour nos hôtes."
+          />
+        </div>
+      </div>
     </div>
   );
 }
 
-export default InfoPage;
+export default About;

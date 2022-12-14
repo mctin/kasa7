@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import Card from "../ui/Card";
 import classes from "./HousingItem.module.css";
 
-function HousingItem(props) {
+function Housing(props) {
   return (
     <li className={classes.item}>
-      <Link to={"/Housing/" + props.id}>
+      <Link to={`/Housing/${props.id}`}>
         <Card>
           <div className={classes.image}>
             <img src={props.cover} alt={props.title} />
@@ -22,4 +22,4 @@ function HousingItem(props) {
   );
 }
 
-export default HousingItem;
+export default Housing;
