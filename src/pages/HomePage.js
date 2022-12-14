@@ -1,26 +1,25 @@
 import DataHouse from "././../datas/DataHouse.json";
 import HousingList from "../components/housing/HousingList";
-import imageBanner from "../components/images/banner2.png";
+import { image } from "../components/images/banner2.png";
+import Banner from "../components/layout/banner";
 
-import "../styles/infoPage.css";
+import "../styles/HomePage.css";
 
 function HomePage() {
   return (
-    <section>
-      <div>
-        <h1>HomePage</h1>
-        <h2 className="title_home">Chez vous, partout et ailleurs</h2>
+    <>
+      <div className="body-home">
+        <div>
+          <Banner>banner</Banner>
+        </div>
+        <div className="bdg"></div>
       </div>
-      <div className="title_img">
-        <img src={imageBanner} alt="bimg" />
-      </div>
-      <section className="flex">
+      <div className="background">
         <div className="location_card">
           <HousingList houses={DataHouse} />
         </div>
-      </section>
-    </section>
+      </div>
+    </>
   );
 }
-
 export default HomePage;

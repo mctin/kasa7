@@ -1,8 +1,7 @@
 import React from "react";
-
+import Banner from "../components/layout/banner";
 // ACCORDION
 import Accordion from "../components/layout/Accordion";
-import imageBanner from "../components/images/banner2.png";
 
 // STYLE
 import "../styles/infoPage.css";
@@ -10,13 +9,7 @@ import "../styles/infoPage.css";
 function About() {
   return (
     <div className="body-about">
-      <div className="background_title">
-        <div className="title_img">
-          <img src={imageBanner} alt="bimg" />
-        </div>
-        <div className="bgd"></div>
-      </div>
-
+      <Banner> mkmkmkm</Banner>
       <div className="container">
         <div className="accordion-container">
           <Accordion

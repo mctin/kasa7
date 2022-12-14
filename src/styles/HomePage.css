@@ -17,37 +17,46 @@
   transform: translate(-50%, -50%);
   width: 100%;
   margin: 0;
-  text-align: center;
+}
+.title_img img {
+  width: 335px;
+  height: 111px;
+}
+
+.background_title {
+  width: 335px;
+  height: 111px;
+  margin-bottom: -20%;
+  margin-left: 5%;
 }
 
 .bgd {
   position: absolute;
-  /* width: 90%; */
+  width: 100%;
   height: 100%;
-  margin: auto;
+  left: 0;
+  top: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
-  border-radius: 25px;
 }
-.flex {
-  display: flex;
-}
-.banner.background {
-  position: absolute;
-  width: 1240px;
-  height: 223px;
-  left: 100px;
-  top: 171px;
-  background: #000000;
-  mix-blend-mode: darken;
-  opacity: 0.3;
-  border-radius: 25px;
-}
+
 .background {
-  display: flex;
+  width: 81%;
+  margin: 20px auto;
+  background: #f7f7f7;
+  border-radius: 25px;
 }
 
 .location_card {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: -20px;
+}
+
+.Gallery {
+  position: absolute;
+  width: 1240px;
+  height: 829px;
+  left: 100px;
+  top: 437px;
 }
