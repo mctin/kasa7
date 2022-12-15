@@ -1,10 +1,10 @@
 .footer {
   display: flex;
+  height: 209px;
   flex-direction: column;
   color: white;
   align-items: center;
   position: relative;
-  height: 209px;
   justify-content: space-around;
   text-align: center;
 
@@ -19,3 +19,10 @@ logo2 {
   bottom: 49.55%;
   z-index: 1;
 }
+
+/* @media screen {
+  position: relative;
+  width: 375px;
+  height: 209px;
+  background: #000000;
+} */

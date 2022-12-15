@@ -1,7 +1,7 @@
-import classes from "./Card.module.css";
+import "./Card.module.css";
 
 function Card(props) {
-  return <div className={classes.card}>{props.children}</div>;
+  return <div className="location_card rectangle">{props.children}</div>;
 }
 
 export default Card;

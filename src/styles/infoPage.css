@@ -2,6 +2,12 @@
   margin-top: 70px;
 }
 /* STYLE - IMG HEADER ABOUT PAGE */
+.main {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #ffffff;
+}
 .cardbox {
   display: flex;
 }

@@ -9,12 +9,7 @@ function Housing(props) {
         <Card>
           <div className={classes.image}>
             <img src={props.cover} alt={props.title} />
-          </div>
-          <div className={classes.content}>
-            <h3>{props.title}</h3>
-          </div>
-          <div className={classes.actions}>
-            <button>To Favorites</button>
+            <h3 className={classes.content}>{props.title}</h3>
           </div>
         </Card>
       </Link>
