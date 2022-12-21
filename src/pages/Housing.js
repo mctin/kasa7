@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import homes from "././../datas/DataHouse.json";
 import Tag from "../components/tag";
 import Rating from "../components/stars";
@@ -10,6 +11,10 @@ import Slideshow from "../components/layout/Slideshow";
 const InfoHome = () => {
   const { homeId } = useParams();
   const home = homes.find((home) => home.id === homeId);
+  if (!home) {
+    return <Navigate to="/*" />;
+  }
+  // return <Navigate to="/Error404" />
   const { title, location, rating, host, equipments, description, pictures } =
     home;
   return (

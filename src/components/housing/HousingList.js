@@ -1,9 +1,9 @@
 import Housing from "./HousingItem";
-import classes from "./HousingList.module.css";
+import "./HousingList.css";
 
 function HousingList(props) {
   return (
-    <ul className={classes.list}>
+    <ul className="list">
       {props.houses.map((houses) => (
         <Housing
           key={houses.id}

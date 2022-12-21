@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 function ErrorPage() {
   return (
-    <div className="nomatch">
+    <div className="errorpage">
       <h1>404</h1>
-      <p>Oups! La page que vous demandez n'existe pas.</p>
-      <Link className="backhome" to="/">
-        Retourner sur la page d'accueil
+      <h2>Oups! La page que vous demandez n'existe pas.</h2>
+      <Link className="homepage" to="/">
+        <p>Retourner sur la page d'accueil</p>
       </Link>
     </div>
   );

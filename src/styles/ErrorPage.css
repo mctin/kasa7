@@ -1,72 +1,79 @@
 /* PART 404 */
 
-.nomatch h1 {
-  /* 404 */
-
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  font-family: "Montserrat", sans-serif;
+.errorpage h1 {
+  position: relative;
+  width: auto;
+  background: #ffffff;
+  font-family: "Montserrat";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 288px;
   line-height: 142.6%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   color: #ff6060;
-  margin-left: 30%;
 }
-
-.nomatch p {
-  /* Oups! La page que vous demandez n'existe pas. */
-
+.errorpage h2 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 36px;
   line-height: 142.6%;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
   color: #ff6060;
-  margin-left: 20%;
-  margin-top: 50px;
+  right: 18.96%;
+  left: 20.49%;
+  bottom: 35.84%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.backhome {
+.errorpage p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  text-align: center;
+  color: #ff6060;
+  right: 40.14%;
+  left: 40.14%;
+  bottom: 15.53%;
+}
+
+.homepage {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 142.6%;
-  display: flex;
-  align-items: flex-end;
   text-decoration-line: underline;
   text-align: center;
-  margin-left: 40%;
   margin-top: 8%;
   color: #ff6060;
 }
 
 @media (max-width: 375px) {
-  .nomatch h1 {
-    /* 404 */
+  .errorpage h1 {
     font-size: 96px;
-    margin-left: 27%;
     text-align: center;
   }
-
-  .nomatch p {
-    /* Oups! La page que vous demandez n'existe pas. */
+  .errorpage h2 {
+    font-size: 18px;
+  }
+  .errorpage p {
     font-size: 18px;
     margin-left: 14%;
     margin-right: 14%;
+    text-align: center;
   }
 
-  .backhome {
+  .homepage {
     font-size: 14px;
     margin-left: 85px;
+    text-align: center;
   }
 }

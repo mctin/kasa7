@@ -1,5 +1,6 @@
-.main {
-  margin: 0px 100px;
+.body_location_page {
+  display: flex;
+  flex-direction: column;
 }
 .slideshow_location {
   margin-top: 35px;
@@ -13,19 +14,24 @@
 }
 
 .presentation {
+  width: 1240px;
   display: flex;
   flex-direction: row;
-  margin-left: 30px;
   align-items: center;
   justify-content: space-between;
+  margin-left: 100px;
 }
 
-.location_header {
+.home_header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  margin-left: 3%;
+  width: 635px;
+}
+.location_header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .location_subheader {
@@ -33,18 +39,17 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-right: 10%;
+  margin-right: 0px;
   margin-bottom: 10px;
 }
 .location_tags {
   display: flex;
 }
-.main-container-tag {
+/* .main-container-tag {
   display: flex;
   flex-direction: row;
   /* justify-content: left;
   margin-left: 15px; */
-}
 
 .main-container-stars {
   display: flex;
@@ -52,74 +57,46 @@
 }
 
 .main-container-accordion {
-  display: flex;
   margin-top: 10px;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  justify-content: space-around;
-  margin-left: 3.5%;
-  width: 80%;
+  margin-left: 100px;
 }
 
 .accordion-container-right {
-  margin-right: -16%;
+  width: 582px;
+  margin-bottom: 5%;
 }
-
+.accordion-container-left {
+  width: 582px;
+  margin-bottom: 5%;
+}
 /* TITLE PAGE - LOCATION NAME*/
 
 .title_locationpage {
-  left: 6.94%;
-  right: 48.96%;
-  top: 55.96%;
-  bottom: 39.06%;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: normal;
   font-size: 36px;
   line-height: 142.6%;
   display: flex;
   align-items: flex-end;
   color: #ff6060;
-  margin-left: 108px;
+  margin-bottom: 30px;
+  font-weight: 500;
 }
-
-/* SUBTITLE PAGE - LOCATION LOCALISATION*/
 
 .subtitle_locationpage {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 142.6%;
   display: flex;
   align-items: flex-end;
   color: #ff6060;
-  margin-left: 108px;
   margin-top: -25px;
-}
-
-.location_subheader {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  /* margin-left: 22%; */
-}
-
-.location_header {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.title_locationpage {
-  font-size: 18px;
-  line-height: 142.6%;
-  margin-left: -10px;
-  margin-bottom: 30px;
-}
-
-.subtitle_locationpage {
-  font-size: 14px;
-  margin-left: -10px;
 }
 
 .main-container-tag {
@@ -127,15 +104,4 @@
   flex-direction: row;
   justify-content: left;
   flex-wrap: wrap;
-}
-
-.main-container-accordion {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.accordion-container-left {
-  margin-left: 15%;
-  margin-bottom: 5%;
 }

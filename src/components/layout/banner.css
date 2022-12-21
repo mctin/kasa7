@@ -1,8 +1,10 @@
 .banner {
   border-radius: 10px;
-  position: relative;
-  margin: 20px 0;
-  height: 111px;
+  position: absolute;
+  width: 100%;
+  height: 223px;
+  left: 100px;
+  top: 152px;
 }
 
 .img {
@@ -20,20 +22,53 @@
   height: 100%;
   width: 100%;
   opacity: 0.3;
+  background: #000000;
+  mix-blend-mode: darken;
 }
 
 .text {
   position: absolute;
   top: 0;
-  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
   color: white;
   font-weight: 500;
   margin: 0;
-  padding-left: 16px;
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   box-sizing: border-box;
   justify-content: space-evenly;
+}
+@media (max-width: 375px) {
+  .banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    left: 28px;
+  }
+
+  .img {
+    position: absolute;
+  }
+
+  .text {
+    margin-right: 20px;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 142.6%;
+    margin-top: -25px;
+  }
+
+  /* .text {
+    top: 20px;
+    left: 20px;
+    right: -10px;
+  } */
 }

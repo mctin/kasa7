@@ -2,12 +2,6 @@
   margin-top: 70px;
 }
 /* STYLE - IMG HEADER ABOUT PAGE */
-.main {
-  position: relative;
-  width: 1440px;
-  height: 1024px;
-  background: #ffffff;
-}
 .cardbox {
   display: flex;
 }
@@ -51,7 +45,9 @@
 .container {
   /* width: 100%; */
   margin-bottom: 30px;
-  margin-left: 4%;
+  margin-left: 208px;
+  margin-right: 209px;
+  margin-top: 350px;
 }
 
 @media (max-width: 375px) {

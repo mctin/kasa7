@@ -11,13 +11,10 @@ function HeaderSection() {
       <nav>
         <ul>
           <li>
-            <Link to="/*">Errorpage</Link>
+            <Link to="/">Accueil</Link>
           </li>
           <li>
-            <Link to="/Housing/:homeId">Housing</Link>
-          </li>
-          <li>
-            <Link to="/InfoPage">Info</Link>
+            <Link to="/InfoPage">A Propos</Link>
           </li>
         </ul>
       </nav>

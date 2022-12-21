@@ -1,6 +1,6 @@
-.location_card {
+/* .location_card {
   width: 340px;
-  /* height: 340px; */
+  height: 340px;
   display: flex;
   align-items: flex-end;
   background-size: cover;
@@ -10,7 +10,7 @@
   margin-left: 35px;
   margin-left: 35px;
   border-radius: 30px;
-}
+} */
 
 .location-title {
   margin-top: auto;
@@ -38,16 +38,6 @@
     rgba(0, 0, 0, 0.5) 100%
   );
 }
-.Rectangle{
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-  border-radius: 10px;
-  }
-
 .linklocation {
   text-decoration: none;
   text-decoration-line: none;

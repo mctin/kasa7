@@ -1,7 +1,8 @@
 .slideshow {
   overflow: hidden;
-  width: 80%;
-  margin: auto;
+  width: 1240px;
+  margin-left: 100px;
+  margin-right: 100px;
   position: relative;
 }
 

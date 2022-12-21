@@ -1,15 +1,16 @@
 import React from "react";
-import bannerinfo from "../images/bannerinfo.png";
 
 import "../layout/banner.css";
 
-const Banner = (image) => {
+const Banner = (props) => {
   return (
+    // <div className="backgroundbanner">
     <div className="banner">
-      <img className="img" src={bannerinfo} alt="" />
+      <img className="img" src={props.img} alt="" />
       <div className="overlay"></div>
-      <h1 className="text">"Chez vous, partout et ailleurs"</h1>
+      <h1 className="text"> {props.text}</h1>
     </div>
+    // </div>
   );
 };
 

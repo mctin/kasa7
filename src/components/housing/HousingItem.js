@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import Card from "../ui/Card";
-import classes from "./HousingItem.module.css";
+import "./HousingItem.css";
 
 function Housing(props) {
   return (
-    <li className={classes.item}>
+    <li className="item">
       <Link to={`/Housing/${props.id}`}>
         <Card>
-          <div className={classes.image}>
+          <div className="image">
             <img src={props.cover} alt={props.title} />
-            <h3 className={classes.content}>{props.title}</h3>
+            <h3 className="content">{props.title}</h3>
           </div>
         </Card>
       </Link>

@@ -2,11 +2,13 @@
 .accordion__section {
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* STYLE BUTTON */
 .accordion {
-  width: 89%;
+  width: 1023px;
   height: 47px;
   border-radius: 5px;
   background-color: #ff6060;
@@ -23,29 +25,32 @@
 /* STYLE CONTENT TITLE */
 .accordion__title {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 24px;
   text-align: left;
 }
 
 /* STYLE CHEVRON */
 .accordion__icon {
   margin-left: auto;
+  font-style: bold;
+
   transition: transform 0.6s ease;
 }
 
 /* ROTATION */
 .rotate {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 
 /* STYLE ACCORDION PANEL */
 .accordion__content {
   background-color: #f6f6f6;
   overflow: auto;
+  height: 254px;
   transition: max-height 0.6s ease;
-  height: 117px;
-  width: 89%;
+  /* height: 147px; */
+  width: 1023px;
   left: 0px;
   top: 38px;
   border-radius: 5px;
@@ -56,15 +61,26 @@
   color: #ff6060;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 24px;
   padding: 18px;
+  line-height: 142%;
+  left: 1.76%;
+  right: 2.64%;
+  top: 40.22%;
+  bottom: 10.33%;
 }
+/* position: absolute;
+left: 1.76%;
+right: 2.64%;
+top: 40.22%;
+bottom: 10.33%;
+
 
 /* CONTAINER */
 
 .accordion-container {
   margin-bottom: 20px;
-  margin-left: 108px;
+  width: 1023px;
   /* margin-right: none; */
   position: relative;
 }
