@@ -1,6 +1,6 @@
 .slideshow {
   overflow: hidden;
-  width: 1240px;
+  /* width: 100%; */
   margin-left: 100px;
   margin-right: 100px;
   position: relative;
@@ -43,5 +43,10 @@
 @media (max-width: 375px) {
   .slideshow-idx {
     display: none;
+  }
+  .slideshow {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%;
   }
 }

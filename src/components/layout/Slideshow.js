@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Slideshow.css";
-import chevronleft from "../images/chevronleft.png";
-import chevronright from "../images/chevronright.png";
+import chevronleft from "../../assets/images/chevronleft.png";
+import chevronright from "../../assets/images/chevronright.png";
 // -------------------------------------------
 
 export default function Slideshow(props) {

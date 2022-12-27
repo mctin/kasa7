@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import logo from "../images/LOGO.jpg";
-import classes from "./Header.module.css";
+import logo from "./../../assets/images/LOGO.jpg";
+import "./Header.css";
 
 function HeaderSection() {
   return (
-    <header className={classes.header}>
-      <div className={classes.logo}>
+    <header className={"header"}>
+      <div className={"logohead"}>
         <img src={logo} alt="Logo" />
       </div>
       <nav>

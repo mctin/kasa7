@@ -1,8 +1,8 @@
 import React from "react";
 import "./stars.css";
 
-import redstar from "./images/stars.png";
-import empty from "./images/starempty.png";
+import redstar from "../assets/images/stars.png";
+import empty from "../assets/images/starempty.png";
 
 const Rating = ({ rating }) => {
   const stars = [1, 2, 3, 4, 5];

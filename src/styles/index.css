@@ -6,25 +6,21 @@
 
 body {
   font-family: "Monserrat", sans-serif;
-  margin: 0;
-  position: relative;
-  width: 1440px;
-  min-height: 1024px;
+  /* position: relative; */
+  max-height: 1440px;
+  max-width: 1440px !important;
+  /* min-height: 1024px; */
   background: #ffffff;
+  margin: auto;
 }
 
 h1 {
   font-size: 2.5rem;
   color: #2c292b;
+  max-width: 1440px !important;
 }
 
 h2 {
   font-size: 1.5rem;
   color: #2c292b;
-}
-
-@media (max-width: 375px) {
-  body {
-    width: 375px;
-  }
 }

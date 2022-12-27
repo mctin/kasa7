@@ -1,31 +1,34 @@
 .banner {
   border-radius: 10px;
   position: absolute;
-  width: 100%;
   height: 223px;
-  left: 100px;
+  width: 100%;
   top: 152px;
+  max-width: 1440px !important;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .img {
   border-radius: inherit;
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  opacity: 0.6;
+  border-radius: inherit;
+  width: 84%;
+  height: 245px;
+  /* background-image: url("../images/bannermobileinfo.png"); */
 }
 
 .overlay {
-  /* background-color:; */
   position: absolute;
   top: 0;
   border-radius: 10px;
   height: 100%;
-  width: 100%;
-  opacity: 0.3;
+  width: fit-content;
+  opacity: 0;
   background: #000000;
   mix-blend-mode: darken;
 }
-
 .text {
   position: absolute;
   top: 0;
@@ -41,34 +44,122 @@
   box-sizing: border-box;
   justify-content: space-evenly;
 }
-@media (max-width: 375px) {
+
+/* @media screen and (max-width: 1280px) {
+  .img {
+    height: 210px;
+  }
+  .text {
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  .img {
+    height: 190px;
+  }
+  .text {
+    top: 200px;
+  }
+} */
+
+@media screen and (max-width: 992px) {
+  .banner {
+    height: 180px;
+    margin-bottom: 40px;
+  }
+  .img {
+    height: 170px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+  .banner {
+    height: 170px;
+    margin-bottom: 35px;
+  }
+  .img {
+    height: 160px;
+  }
+  .text {
+    top: 185px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 170px;
+    margin-bottom: 30px;
+  }
+  .img {
+    height: 150px;
+  }
+  .text {
+    top: 160px;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .banner {
+    width: 88.725%;
+    height: 125px;
+    margin: 0 auto 26px auto;
+    padding: 0;
+  }
+  .img {
+    height: 111px;
+    margin: 0;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .text {
+    width: 217px;
+    height: 48px;
+    font-size: 24px;
+    text-align: left;
+    top: 105px;
+    left: 50px;
+  } */
+
+@media screen and (max-width: 480px) {
   .banner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    left: 28px;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .img {
     position: absolute;
+    height: 223px;
+    width: 100%;
+    margin: left 20px;
+    margin: right 20px;
+    border-radius: inherit;
+    object-fit: cover;
+    opacity: 0.6;
+    /* background-ima
+    /* aspio: / 9; */
   }
 
   .text {
-    margin-right: 20px;
     text-align: right;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 142.6%;
-    margin-top: -25px;
+    margin-top: -165px;
   }
-
-  /* .text {
-    top: 20px;
-    left: 20px;
-    right: -10px;
-  } */
 }

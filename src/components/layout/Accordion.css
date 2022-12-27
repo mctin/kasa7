@@ -8,8 +8,8 @@
 
 /* STYLE BUTTON */
 .accordion {
-  width: 1023px;
   height: 47px;
+  width: 80%;
   border-radius: 5px;
   background-color: #ff6060;
   color: white;
@@ -50,7 +50,6 @@
   height: 254px;
   transition: max-height 0.6s ease;
   /* height: 147px; */
-  width: 1023px;
   left: 0px;
   top: 38px;
   border-radius: 5px;
@@ -80,15 +79,38 @@ bottom: 10.33%;
 
 .accordion-container {
   margin-bottom: 20px;
-  width: 1023px;
   /* margin-right: none; */
   position: relative;
 }
 
-@media (max-width: 375px) {
-  .accordion {
+/* .accordion-container {
+    margin-top: 20px;
+    margin-left: -2px;
     width: 335px;
-    height: 29.93px;
+  } */
+
+@media screen and (max-width: 768px) {
+  .accordion__content {
+    width: 100%;
+  }
+  .accordion__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+  }
+  .accordion__text {
+    color: #ff6060;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .accordion {
+    height: 30px;
+    width: 100%;
   }
 
   .accordion__title {
@@ -98,7 +120,6 @@ bottom: 10.33%;
     text-align: left;
   }
 
-  /* STYLE TEXT */
   .accordion__text {
     color: #ff6060;
     font-family: "Montserrat", sans-serif;
@@ -107,13 +128,6 @@ bottom: 10.33%;
     padding: 18px;
   }
 
-  /* STYLE ACCORDION PANEL */
-  .accordion__content {
-    width: 335px;
-  }
-
-  .accordion-container {
-    margin-top: 20px;
-    margin-left: -2px;
-  }
+  /* .accordion__content {
+  } */
 }

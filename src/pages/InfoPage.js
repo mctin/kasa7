@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../components/layout/banner";
 // ACCORDION
 import Accordion from "../components/layout/Accordion";
-import banner2 from "../components/images/banner2.png";
+import banner2 from "../assets/images/bannermobileinfo.png";
 // STYLE
 import "../styles/infoPage.css";
 

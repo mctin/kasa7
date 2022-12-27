@@ -56,7 +56,7 @@
   color: #ff6060;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .errorpage h1 {
     font-size: 96px;
     text-align: center;
@@ -75,5 +75,55 @@
     font-size: 14px;
     margin-left: 85px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .errorpage h1 {
+    font-size: 96px;
+  }
+  .errorpage h2 {
+    font-size: 18px;
+  }
+  .errorpage p {
+    font-size: 18px;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+  }
+
+  .homepage {
+    font-size: 14px;
+    margin-left: 85px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .errorpage h1 {
+    font-size: 96px;
+  }
+  .errorpage h2 {
+    font-size: 18px;
+  }
+  .errorpage p {
+    font-size: 18px;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+  }
+
+  .homepage {
+    font-size: 14px;
+    margin-left: 85px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .errorpage h1 {
+    margin: 90px auto 55px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .errorpage h1 {
+    margin: 100px auto 56px;
   }
 }

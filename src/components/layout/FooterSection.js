@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import classes from "./Footer.module.css";
-import logo2 from "../images/LOGO2.png";
+import "./Footer.css";
+import logo2 from "./../../assets/images/LOGO2.png";
 
 function FooterSection() {
   return (
-    <footer className={classes.footer}>
-      <div className={classes.logo}>
+    <footer className={"footer"}>
+      <div className={"logo"}>
         <img src={logo2} alt="Logo" />
         <p>© 2020 Kasa. All rights reserved</p>
       </div>

@@ -4,17 +4,16 @@
   justify-content: space-between;
   color: #ff6060;
   background-color: white;
-  margin-right: 100px;
   margin-left: 100px;
+  margin-right: 100px;
+  max-width: 1440px !important;
 }
 
-/* .logo {
+.header img {
   width: 210px;
   height: 68px;
   margin: top 14.45px;
-  /* font-size: 2rem; */
-/* color: white; */
-/* font-weight: bold; */
+}
 
 .header ul {
   list-style: none;
@@ -26,7 +25,7 @@
   align-content: center;
   align-items: flex-end;
   text-align: right;
-  right: 0px;
+  right: 20px;
   margin-top: 57px;
   margin-bottom: 20px;
   color: #ff6060;
@@ -44,21 +43,43 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: white;
+  color: #ff6060;
 }
 
-.badge {
-  background-color: #cc2062;
-  color: white;
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin-left: 0.5rem;
-}
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .header {
-    margin-top: 20px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .header img {
+    width: 145px;
+    height: 47px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .header li {
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: -30px;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 142.6%;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    margin-right: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -67,21 +88,22 @@
   }
 
   .header img {
-    width: 98px;
-    height: 43.08px;
-    margin-left: 5px;
+    width: 145px;
+    height: 47px;
+    margin-left: 20px;
     position: absolute;
     top: 20px;
   }
 
   .header li {
     margin-right: 20px;
+    margin-left: 10px;
+    margin-top: -30px;
     text-align: right;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 142.6%;
-    margin-top: -25px;
   }
 }

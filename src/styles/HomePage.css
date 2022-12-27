@@ -1,16 +1,18 @@
 .body3 {
-  min-height: 3000px;
+  min-height: 4200px;
 }
 .background3 {
   position: absolute;
-  width: 1240px;
-  height: 1095px;
-  left: 100px;
   top: 437px;
   background: #f7f7f7;
   border-radius: 25px;
+  background-color: #f6f6f6;
+  display: flex;
+  height: max-content;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-*/ .bgd {
+.bgd {
   position: absolute;
   /* width: 100%; */
   /* height: 100%; */
@@ -19,4 +21,32 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-
+@media screen and (max-width: 480px) {
+  .background3 {
+    width: auto;
+    height: 3600px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .body3 {
+    height: 7900px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .background3 {
+    width: auto;
+    height: 3600px !important;
+    color: blue;
+    background-color: red;
+  }
+  .body3 {
+    height: 7900px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .body3 {
+    min-height: 3010px;
+  }
+}
