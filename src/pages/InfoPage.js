@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../components/layout/banner";
+import Banner2 from "../components/layout/banner2";
 // ACCORDION
 import Accordion from "../components/layout/Accordion";
 import banner2 from "../assets/images/bannermobileinfo.png";
@@ -9,9 +9,9 @@ import "../styles/infoPage.css";
 function About() {
   return (
     <div className="body-about">
-      <Banner img={banner2} text="">
+      <Banner2 img={banner2} text="">
         {" "}
-      </Banner>
+      </Banner2>
       <div className="container">
         <div className="accordion-container">
           <Accordion

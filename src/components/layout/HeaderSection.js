@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "./../../assets/images/LOGO.jpg";
 import "./Header.css";
 
@@ -11,10 +11,10 @@ function HeaderSection() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Accueil</Link>
+            <NavLink to="/">Accueil</NavLink>
           </li>
           <li>
-            <Link to="/InfoPage">A Propos</Link>
+            <NavLink to="/InfoPage">A Propos</NavLink>
           </li>
         </ul>
       </nav>
