@@ -1,5 +1,5 @@
 import React from "react";
-import "./stars.css";
+import "../components/stars.css";
 
 import redstar from "../assets/images/stars.png";
 import empty from "../assets/images/starempty.png";

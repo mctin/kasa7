@@ -44,10 +44,10 @@
 }
 
 @media (max-width: 375px) {
-  .location-card {
-    width: 335px;
+  .location_card {
+    width: auto;
     height: 250px;
-    margin-left: 15%;
+    margin-left: 10px;
   }
 
   .location-title {

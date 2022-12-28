@@ -11,10 +11,14 @@ function HeaderSection() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Accueil</NavLink>
+            <NavLink className={"accueil"} to="/">
+              ACCUEIL
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/InfoPage">A Propos</NavLink>
+            <NavLink className={"apropos"} to="/InfoPage">
+              A PROPOS
+            </NavLink>
           </li>
         </ul>
       </nav>

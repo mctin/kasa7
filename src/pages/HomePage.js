@@ -7,10 +7,8 @@ import "../styles/HomePage.css";
 
 function HomePage() {
   return (
-    <div className="body3">
-      <div className="bannersizing">
-        <Banner img={bannerinfo} text="Chez vous, partout et ailleurs"></Banner>
-      </div>
+    <div>
+      <Banner img={bannerinfo} text="Chez vous, partout et ailleurs"></Banner>
       <div className="background3">
         <div className="location_card">
           <HousingList houses={DataHouse} />

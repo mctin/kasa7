@@ -1,6 +1,6 @@
 .slideshow {
   overflow: hidden;
-  /* width: 100%; */
+  width: auto;
   margin-left: 100px;
   margin-right: 100px;
   position: relative;
@@ -45,8 +45,23 @@
     display: none;
   }
   .slideshow {
-    margin-left: 10px;
+    margin-left: 40px;
     margin-right: 10px;
     width: 80%;
+  }
+  .slideshow-controls {
+    width: calc(100% - 1px);
+  }
+}
+@media (max-width: 768px) {
+  .slideshow-idx {
+    display: none;
+  }
+  .slideshow {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .slideshow-controls {
+    width: calc(100% - 1px);
   }
 }

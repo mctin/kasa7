@@ -53,17 +53,16 @@
     right: 31.37%;
     top: 0%;
     bottom: 0%;
-
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 142.6%;
     /* or 17px */
 
     display: flex;
     align-items: flex-end;
     text-align: right;
-    margin-left: 50px;
+    margin-left: 100px;
   }
 }

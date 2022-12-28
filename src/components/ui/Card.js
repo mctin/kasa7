@@ -1,4 +1,4 @@
-import "./Card.module.css";
+import "./Card.css";
 
 function Card(props) {
   return <div className="location_card">{props.children}</div>;

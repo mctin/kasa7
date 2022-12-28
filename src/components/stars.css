@@ -1,10 +1,10 @@
-.stars img {
+.rating_icon img {
   width: 25px;
   height: 25px;
 }
 
 @media (max-width: 375px) {
-  .stars img {
+  img.rating__icon {
     width: 15px;
     height: 15px;
   }

@@ -2,14 +2,14 @@
 .accordion__section {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /* STYLE BUTTON */
 .accordion {
   height: 47px;
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
   background-color: #ff6060;
   color: white;
@@ -83,31 +83,65 @@ bottom: 10.33%;
   position: relative;
 }
 
-/* .accordion-container {
-    margin-top: 20px;
-    margin-left: -2px;
-    width: 335px;
-  } */
-
-@media screen and (max-width: 768px) {
-  .accordion__content {
-    width: 100%;
-  }
+@media screen and (max-width: 998px) {
   .accordion__title {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
     text-align: left;
   }
   .accordion__text {
     color: #ff6060;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     padding: 18px;
   }
+  .accordion__section {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
-@media (max-width: 480px) {
+
+@media screen and (max-width: 768px) {
+  .accordion__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+  }
+  .accordion__text {
+    color: #ff6060;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 18px;
+  }
+  .accordion__section {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .accordion__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+  }
+  .accordion__text {
+    color: #ff6060;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 18px;
+  }
+  .accordion__section {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 375px) {
   .accordion {
     height: 30px;
     width: 100%;
@@ -127,7 +161,8 @@ bottom: 10.33%;
     font-size: 13px;
     padding: 18px;
   }
-
-  /* .accordion__content {
-  } */
+  .accordion__section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }

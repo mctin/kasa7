@@ -20,7 +20,7 @@
   bottom: 49.55%;
   z-index: 1;
 }
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .footer {
     display: flex;
     width: 100%;

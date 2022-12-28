@@ -78,33 +78,26 @@
     line-height: 142.6%;
   }
 }
-@media (max-width: 768px) {
-  .header {
-    margin-right: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
 
+@media (max-width: 375px) {
   .header img {
     width: 145px;
     height: 47px;
-    margin-left: 20px;
-    position: absolute;
-    top: 20px;
+    /* position: absolute; */
+    right: 56.72%;
   }
-
-  .header li {
+  .header {
+    width: 335px;
+    margin-top: 20px;
+    margin-left: 20px;
     margin-right: 20px;
-    margin-left: 10px;
-    margin-top: -30px;
-    text-align: right;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 142.6%;
+    /* position: absolute; */
+  }
+  .header ul {
+    /* position: absolute; */
+    right: 0%;
+    top: 38.3%;
+    font-size: 12px;
+    bottom: 25.53%;
   }
 }

@@ -30,8 +30,7 @@
     font-size: 10px;
     line-height: 8px;
   }
-
-  /* .tag-content {
-        margin-top: 1.5px;
-    } */
+  .tag__text {
+    font-size: 10px;
+  }
 }

@@ -39,3 +39,11 @@
     margin-bottom: 3%;
   }
 }
+@media (max-width: 1024px) {
+  .list {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: top 43px;
+    margin-bottom: 3%;
+  }
+}
