@@ -46,8 +46,7 @@
 @media (max-width: 375px) {
   .location_card {
     width: auto;
-    height: 250px;
-    margin-left: 10px;
+    height: 255px;
   }
 
   .location-title {

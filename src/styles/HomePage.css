@@ -1,12 +1,13 @@
 .background3 {
-  margin-top: 70px;
   background: #f7f7f7;
   border-radius: 25px;
   background-color: #f6f6f6;
   display: flex;
   height: max-content;
-  /* margin-left: 100px;
-  margin-right: 100px; */
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 43px;
+  margin-bottom: 10px;
 }
 .bgd {
   position: absolute;
@@ -23,17 +24,15 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .background3 {
-    width: auto;
-    height: 7550px !important;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: unset;
+    margin-top: 0px;
   }
-}
-@media (max-width: 375px) {
-  .background3 {
-    width: auto;
-    height: 7550px !important;
+
+  .body3 {
+    height: 6083px;
   }
 }

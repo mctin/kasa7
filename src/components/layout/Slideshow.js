@@ -46,10 +46,15 @@ export default function Slideshow(props) {
         ))}
       </div>
       <div className={"slideshow-controls"}>
-        <img src={chevronleft} className={"chevron"} onClick={onPrev} />
+        <img
+          src={chevronleft}
+          alt="left"
+          className={"chevron"}
+          onClick={onPrev}
+        />
         <img
           src={chevronright}
-          alt="arrow"
+          alt="right"
           className={"chevron"}
           onClick={onNext}
         />

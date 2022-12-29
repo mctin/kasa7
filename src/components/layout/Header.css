@@ -83,7 +83,6 @@
   .header img {
     width: 145px;
     height: 47px;
-    /* position: absolute; */
     right: 56.72%;
   }
   .header {
@@ -91,10 +90,8 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    /* position: absolute; */
   }
   .header ul {
-    /* position: absolute; */
     right: 0%;
     top: 38.3%;
     font-size: 12px;

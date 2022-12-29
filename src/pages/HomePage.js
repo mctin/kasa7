@@ -7,7 +7,7 @@ import "../styles/HomePage.css";
 
 function HomePage() {
   return (
-    <div>
+    <div className="body3">
       <Banner img={bannerinfo} text="Chez vous, partout et ailleurs"></Banner>
       <div className="background3">
         <div className="location_card">

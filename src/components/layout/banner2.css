@@ -18,13 +18,13 @@
   height: 245px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
   .img {
     height: 210px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 993px) {
   .banner {
     height: 200px;
     margin-bottom: 50px;
@@ -34,7 +34,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) and (min-width: 800px) {
   .banner2 {
     height: 180px;
     margin-bottom: 40px;
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-width: 769px) {
   .banner {
     height: 170px;
     margin-bottom: 35px;
@@ -57,7 +57,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
   .banner {
     width: 88.725%;
     height: 125px;
@@ -71,7 +71,7 @@
     object-fit: cover;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 378px) {
   .banner2 {
     display: flex;
     flex-direction: row;
@@ -105,6 +105,7 @@
   }
   .banner2 {
     height: 223px;
+    width: auto;
     margin-left: 20px;
     margin-right: 20px;
   }

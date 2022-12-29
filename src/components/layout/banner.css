@@ -12,9 +12,8 @@
   border-radius: inherit;
   object-fit: cover;
   opacity: 3;
+  width: auto;
   border-radius: inherit;
-  width: 84%;
-  height: 245px;
   background: #000000;
   mix-blend-mode: darken;
   /* background-image: url("../images/bannermobileinfo.png"); */
@@ -32,27 +31,35 @@
 } */
 .text {
   position: absolute;
-  top: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 48px;
   color: white;
   font-weight: 500;
-  margin: 0;
-  height: 100%;
-  width: 100%;
+  left: 14.9%;
+  top: 13.32%;
+  font-family: "Montserrat";
+  font-style: normal;
+  line-height: 142.6%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  color: #ffffff;
+}
+h1 {
+  font-size: 2.5rem;
+  color: #2c292b;
+  max-width: 1440px !important;
+}
+* {
   box-sizing: border-box;
-  justify-content: space-evenly;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) and (mid-width: 1025) {
   .imgban {
     height: 210px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (mid-width: 993px) {
   .imgban {
     height: 190px;
   }
@@ -62,12 +69,12 @@
     margin-top: 122px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (mid-width: 799px) {
   .banner {
     height: 180px;
     margin-bottom: 40px;
   }
-  .img {
+  .imgban {
     height: 170px;
   }
   .text {
@@ -75,7 +82,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (mid-width: 388px) {
   .banner {
     width: 88.725%;
     height: 125px;
@@ -108,6 +115,7 @@
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
+    margin-bottom: 0px;
   }
   .imgban {
     position: absolute;
@@ -125,9 +133,10 @@
 
   .text {
     position: absolute;
-    left: 9.6%;
-    right: 32.53%;
-    top: 0%;
+    margin-left: 0px;
+    margin-right: 100px;
+    width: 226px;
+    top: 138px;
     bottom: 88.05%;
     display: flex;
     align-items: center;
