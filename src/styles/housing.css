@@ -143,15 +143,14 @@
     display: flex;
     align-items: flex-end;
     font-size: 18px;
-    margin-left: 20px;
   }
   .presentation {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     align-content: flex-start;
   }
   .home_header {
@@ -165,44 +164,22 @@
     align-items: flex-start;
     width: auto;
     margin-left: 0px;
-  }
-  .accordion-container-right {
-    width: 90%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-  }
-  .accordion-container-left {
-    width: 90%;
-    margin-bottom: 5%;
-    margin-left: 5%;
+    margin-right: 0px;
   }
   .location_subheader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 0px;
     margin-bottom: 10px;
     flex-direction: row-reverse;
   }
-}
-@media (max-width: 768px) {
-  .presentation {
-    /* width: min-content; */
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex-wrap: nowrap;
-    align-content: stretch;
+  .slideshow_location img {
+    height: 255px;
   }
-  .title_locationpage {
-    font-size: 18px;
+  .accordion-container-left {
+    width: auto;
   }
-  .main-container-accordion {
-    margin-left: 10px;
-    margin-right: 10px;
+  .accordion-container-right {
+    width: auto;
   }
 }

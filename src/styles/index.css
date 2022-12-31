@@ -20,7 +20,6 @@ body {
 body::after {
   content: "";
   display: block;
-  height: 209px; /* Set same as footer's height */
 }
 
 h1 {

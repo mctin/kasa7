@@ -50,13 +50,18 @@
   border-radius: 10px;
 }
 
-/* STYLE TEXT */
 .accordionlocation__text {
   color: #ff6060;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
   padding: 18px;
+}
+.accordionlocation__text li {
+  list-style: none;
+}
+.accordionlocation__text ul {
+  padding-left: 0;
 }
 
 @media screen and (max-width: 375px) {
@@ -69,15 +74,12 @@
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* .accordionlocation {
-    width: 335px;
-    height: 29.93px;
-    border-radius: 5px;
+  .accordionlocation {
+    width: auto;
   }
   .accordionlocation__content {
-    width: 335px;
-    height: 143.32px;
-    border-radius: 5px; */
+    width: auto;
+  }
   .accordionlocation__title {
     font-size: 13px;
     font-weight: 500;
