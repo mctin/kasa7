@@ -176,11 +176,6 @@
     margin-bottom: 5%;
     margin-left: 5%;
   }
-  .slideshow_location img {
-    height: 255px;
-    width: 355px;
-    border-radius: 10px;
-  }
   .location_subheader {
     display: flex;
     justify-content: space-between;
@@ -188,22 +183,6 @@
     margin-right: 0px;
     margin-bottom: 10px;
     flex-direction: row-reverse;
-  }
-  .subtitle_locationpage {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19.96px;
-    display: flex;
-    align-items: flex-end;
-    color: #ff6060;
-    margin-top: -25px;
-    margin-left: 20px;
-  }
-  .location_tags {
-    margin-left: 20px;
-    font-size: 10px;
   }
 }
 @media (max-width: 768px) {

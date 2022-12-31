@@ -60,13 +60,16 @@
 }
 
 @media screen and (max-width: 375px) {
-  .accordionlocation_section {
+  .accordionlocation__section {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     align-items: stretch;
+    width: 335px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-  .accordionlocation {
+  /* .accordionlocation {
     width: 335px;
     height: 29.93px;
     border-radius: 5px;
@@ -74,63 +77,12 @@
   .accordionlocation__content {
     width: 335px;
     height: 143.32px;
-    border-radius: 5px;
-  }
+    border-radius: 5px; */
   .accordionlocation__title {
     font-size: 13px;
     font-weight: 500;
   }
   .accordionlocation__text {
     font-size: 12px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .accordionlocation_section {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: stretch;
-  }
-  .accordionlocation {
-    width: auto;
-    height: 29.93px;
-    border-radius: 5px;
-  }
-  .accordionlocation__content {
-    width: auto;
-    height: 143.32px;
-    border-radius: 5px;
-  }
-  .accordionlocation__title {
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .accordionlocation__text {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 1275px) {
-  .accordionlocation_section {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: stretch;
-  }
-  .accordionlocation {
-    width: auto;
-    height: 29.93px;
-    border-radius: 5px;
-  }
-  .accordionlocation__content {
-    width: auto;
-    height: 143.32px;
-    border-radius: 5px;
-  }
-  .accordionlocation__title {
-    font-size: 18px;
-    font-weight: 500;
-  }
-  .accordionlocation__text {
-    font-size: 18px;
   }
 }

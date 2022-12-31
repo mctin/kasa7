@@ -3,19 +3,19 @@
   border-radius: 25px;
   background-color: #f6f6f6;
   display: flex;
-  height: max-content;
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 43px;
   margin-bottom: 10px;
 }
-.bgd {
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 2;
+.body3 {
+  position: relative;
 }
+/* .body3 ::after {
+  content: "";
+  display: block;
+  height: 209px; /* Set same as footer's height */
+
 @media screen and (max-width: 998px) {
   .background3 {
     width: auto;

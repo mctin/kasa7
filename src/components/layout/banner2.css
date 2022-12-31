@@ -85,7 +85,6 @@
 
   .img {
     height: 223px;
-    width: 100%;
     margin: left 20px;
     margin: right 20px;
     border-radius: inherit;
@@ -96,12 +95,12 @@
 @media (max-width: 375px) {
   .img {
     height: 223px;
-    width: 100%;
     object-fit: cover;
     opacity: 0.6;
     mix-blend-mode: darken;
     border-radius: 25px;
     color: black;
+    margin-left: 20px;
   }
   .banner2 {
     height: 223px;

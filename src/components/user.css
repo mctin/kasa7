@@ -38,9 +38,9 @@
 @media (max-width: 375px) {
   .user-container {
     display: flex;
+    width: 254px;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 
   .user-main img {

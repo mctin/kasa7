@@ -45,15 +45,18 @@
     display: none;
   }
   .slideshow {
-    margin-left: 40px;
-    margin-right: 10px;
-    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .slideshow-controls {
     width: calc(100% - 1px);
   }
+  .chevron {
+    width: 15px !important;
+    height: auto !important;
+  }
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .slideshow-idx {
     display: none;
   }
@@ -64,4 +67,4 @@
   .slideshow-controls {
     width: calc(100% - 1px);
   }
-}
+} */
