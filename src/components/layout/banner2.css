@@ -18,13 +18,13 @@
   height: 245px;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1025px) {
+@media screen and (max-width: 1280px) {
   .img {
     height: 210px;
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 993px) {
+@media screen and (max-width: 1024px) {
   .banner {
     height: 200px;
     margin-bottom: 50px;
@@ -34,7 +34,7 @@
   }
 }
 
-@media (max-width: 992px) and (min-width: 800px) {
+@media (max-width: 992px) {
   .banner2 {
     height: 180px;
     margin-bottom: 40px;
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 800px) and (min-width: 769px) {
+/* @media screen and (max-width: 800px){
   .banner {
     height: 170px;
     margin-bottom: 35px;
@@ -55,9 +55,9 @@
   .img {
     height: 160px;
   }
-}
+} */
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
+/* @media screen and (max-width: 768px) {
   .banner {
     width: 88.725%;
     height: 125px;
@@ -70,41 +70,20 @@
     border-radius: 10px;
     object-fit: cover;
   }
-}
-@media (max-width: 480px) and (min-width: 378px) {
-  .banner2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: 90%;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
+} */
+@media (max-width: 740px) {
   .img {
     height: 223px;
-    margin: left 20px;
-    margin: right 20px;
-    border-radius: inherit;
-    object-fit: cover;
-    opacity: 0.6;
-  }
-}
-@media (max-width: 375px) {
-  .img {
-    height: 223px;
+    width: 100%;
     object-fit: cover;
     opacity: 0.6;
     mix-blend-mode: darken;
     border-radius: 25px;
     color: black;
-    margin-left: 20px;
   }
   .banner2 {
     height: 223px;
-    width: auto;
+    width: 86%;
     margin-left: 20px;
     margin-right: 20px;
   }

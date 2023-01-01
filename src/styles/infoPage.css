@@ -1,5 +1,6 @@
 .body-about {
   margin-top: 70px;
+  margin-bottom: 300px;
 }
 /* STYLE - IMG HEADER ABOUT PAGE */
 .cardbox {
@@ -43,11 +44,11 @@
 }
 
 .container {
-  margin-bottom: 30px;
+  margin-bottom: 20%;
   margin-top: 350px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 740px) {
   .background_title {
     width: 94%;
     margin-bottom: -3%;
@@ -76,15 +77,5 @@
   .container {
     margin-bottom: 30px;
     margin-left: 0px;
-  }
-}
-
-@media (max-width: 47px) {
-  .container {
-    width: 100%;
-    margin-bottom: 30px;
-    /* margin-left: 100px; */
-    /* margin-right: 209px; */
-    margin-top: 50px;
   }
 }

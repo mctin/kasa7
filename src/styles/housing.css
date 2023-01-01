@@ -1,6 +1,8 @@
 .body_location_page {
   display: flex;
+  width: 100%;
   flex-direction: column;
+  margin-bottom: 30%;
 }
 .slideshow_location {
   margin-top: 35px;
@@ -54,22 +56,23 @@
 
 .main-container-accordion {
   margin-top: 10px;
-  /* width: 1240px; */
+  width: 83%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 8.5%;
+  margin-right: 8.5%;
 }
 
 .accordion-container-right {
-  width: 582px;
+  width: 50%;
   margin-bottom: 5%;
-  margin-left: 3px;
+  margin-left: 1%;
 }
 .accordion-container-left {
-  width: 582px;
+  width: 50%;
   margin-bottom: 5%;
+  margin-right: 1%;
 }
 /* TITLE PAGE - LOCATION NAME*/
 
@@ -136,7 +139,7 @@
     height: 300px;
   }
 } */
-@media (max-width: 375px) {
+@media (max-width: 1020px) {
   .title_locationpage {
     bottom: 49.51%;
     width: auto;
@@ -165,6 +168,7 @@
     width: auto;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 30%;
   }
   .location_subheader {
     display: flex;
@@ -177,9 +181,10 @@
     height: 255px;
   }
   .accordion-container-left {
-    width: auto;
+    width: 100%;
   }
   .accordion-container-right {
-    width: auto;
+    width: 100%;
+    margin-left: 0%;
   }
 }

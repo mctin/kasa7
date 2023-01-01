@@ -8,9 +8,10 @@
   justify-content: space-around;
   text-align: center;
   background: #000000;
-  height: 209px;
   max-width: 1440px !important;
   position: absolute;
+  bottom: 0;
+  margin-top: 10%;
 }
 .logo {
   position: absolute;
@@ -26,11 +27,8 @@
     flex-direction: column;
     color: white;
     align-items: center;
-    position: relative;
     justify-content: space-around;
     text-align: center;
-    background: #000000;
-    height: 209px;
   }
   .logo {
     position: absolute;

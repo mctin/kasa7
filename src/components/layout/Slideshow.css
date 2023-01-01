@@ -40,13 +40,13 @@
   font-weight: bold;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 740px) {
   .slideshow-idx {
     display: none;
   }
   .slideshow {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .slideshow-controls {
     width: calc(100% - 1px);

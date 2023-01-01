@@ -6,10 +6,10 @@
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 43px;
-  margin-bottom: 10px;
 }
 .body3 {
   position: relative;
+  margin-bottom: 230px;
 }
 /* .body3 ::after {
   content: "";
@@ -34,5 +34,6 @@
 
   .body3 {
     height: 6083px;
+    margin-bottom: 300px;
   }
 }

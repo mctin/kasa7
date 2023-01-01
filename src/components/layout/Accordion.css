@@ -83,7 +83,7 @@ bottom: 10.33%;
   position: relative;
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 1024px) {
   .accordion__title {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -102,46 +102,7 @@ bottom: 10.33%;
     margin-right: 100px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .accordion__title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-  }
-  .accordion__text {
-    color: #ff6060;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 18px;
-  }
-  .accordion__section {
-    margin-left: 80px;
-    margin-right: 80px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .accordion__title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-  }
-  .accordion__text {
-    color: #ff6060;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 18px;
-  }
-  .accordion__section {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-}
-@media (max-width: 375px) {
+@media (max-width: 740px) {
   .accordion {
     height: 30px;
     width: 100%;
@@ -160,5 +121,9 @@ bottom: 10.33%;
     font-weight: 400;
     font-size: 13px;
     padding: 18px;
+  }
+  .accordion__section {
+    margin-left: 5.4%;
+    margin-right: 5.4%;
   }
 }

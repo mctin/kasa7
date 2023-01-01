@@ -33,25 +33,9 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1280px) and (mid-width: 1025) {
-  .imgban {
-    height: 210px;
-  }
-}
-
-@media screen and (max-width: 1024px) and (mid-width: 993px) {
-  .imgban {
-    height: 190px;
-  }
-  .text {
-    font-size: 30px;
-    height: 170px;
-    margin-top: 122px;
-  }
-}
-@media screen and (max-width: 992px) and (mid-width: 799px) {
+@media screen and (max-width: 1024px) {
   .banner {
-    height: 180px;
+    height: 190px;
     margin-bottom: 40px;
   }
   .imgban {
@@ -59,10 +43,13 @@
   }
   .text {
     font-size: 30px;
+    height: 170px;
+    width: 50%;
+    top: 0%;
   }
 }
 
-@media screen and (max-width: 768px) and (mid-width: 388px) {
+@media screen and (max-width: 1023px) {
   .banner {
     width: 88.725%;
     height: 125px;
@@ -72,37 +59,37 @@
   }
   .imgban {
     height: 111px;
+    width: 100%;
     margin: 0;
     border-radius: 10px;
     object-fit: cover;
   }
   .text {
-    width: 217px;
-    height: 48px;
+    width: 39%;
     font-size: 24px;
-    left: 50px;
+    left: 39%;
+    top: -1%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .banner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    width: 335px;
+    width: 94%;
     height: 111px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 5%;
     border-radius: 10px;
     margin-bottom: 0px;
   }
   .imgban {
     position: absolute;
-    width: 335px;
-    height: 111px;
-    margin: left 20px;
-    margin: right 20px;
+    width: 94%;
+    margin: left 5%;
+    margin: right 5%;
     border-radius: inherit;
     object-fit: cover;
     opacity: 3;
@@ -112,16 +99,16 @@
   }
 
   .text {
-    position: absolute;
-    left: 36px;
     margin-right: 0px;
-    width: 217px;
-    height: 48px;
-    top: 31px;
+    width: 50%;
+    height: 0px;
+    top: 0%;
     bottom: unset;
     display: flex;
     align-items: center;
     font-size: 24px;
     line-height: 100%;
+    left: 9%;
+    top: 1%;
   }
 }

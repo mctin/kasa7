@@ -47,7 +47,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
   .header {
     margin-right: 0px;
     display: flex;
@@ -56,7 +56,7 @@
     align-items: center;
     flex-wrap: nowrap;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 60px;
   }
 
   .header img {
@@ -79,21 +79,21 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .header img {
     width: 145px;
     height: 47px;
     right: 56.72%;
   }
   .header {
-    width: 335px;
+    width: 96%;
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .header ul {
     right: 0%;
-    top: 38.3%;
+    margin-top: 38px;
     font-size: 12px;
     bottom: 25.53%;
   }
